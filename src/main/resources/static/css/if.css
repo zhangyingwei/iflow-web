@@ -1,0 +1,25 @@
+.article-item{
+
+}
+
+.article-item .title{
+    font-weight: bolder;
+    color: #5e5e5e;
+}
+
+.article-item .item span {
+    margin-right: 10px;
+    font-weight: bolder;
+    color: #9e9e9e;
+}
+
+.center-vertical{
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+} 
+
+.login-text {
+    color:#5e5e5e;
+    font-size: 10px;
+}
