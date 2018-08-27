@@ -1,13 +1,6 @@
 $(function () {
-    initLoding()
+    // initLoding()
 })
-
-function initLoding() {
-    $(".content").mLoading({
-        text:"loading...",
-        mask:false
-    });
-}
 
 var util = {
     info: function(message) {
@@ -46,7 +39,14 @@ var util = {
             timer: 1000
         });
     },
+    initLoding: function() {
+        $(".content").mLoading({
+            text:"loading...",
+            mask:false
+        });
+    },
     loading: function () {
+        this.initLoding()
         $(".content").mLoading("show");
     },
     closeLoading:function () {
